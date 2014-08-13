@@ -17,17 +17,17 @@ header {
   border-bottom: 1px solid #EEE;
 }
 
-h1.site-title {
-  display: inline;
+a.site-title, a:visited.site-title {
   margin: 0;
 
   color: #666;
 
   font-size: 3em;
   line-height: 4rem;
+  text-decoration: none;
 }
 
-h1.site-title:hover {
+a.site-title:hover {
   color: #222;
 }
 

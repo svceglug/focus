@@ -1,6 +1,6 @@
 <header>
   <div class="container">
-    <h1 class="site-title">{#!} FOCUS GLUG</h1>
+    <a class="site-title" href="/">{#!}FOCUS GLUG</a>
     <nav class="pull-right">
       <ul>
         <li><a href="/about.php">About</a></li>
