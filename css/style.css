@@ -68,6 +68,14 @@ nav ul li a:hover {
   clear: both;
 }
 
+.heading {
+  display: block;
+  padding: 1em 0;
+
+  font-size: 3em;
+  font-weight: 200;
+}
+
 ul, ol{
   margin:0;
   padding:0;

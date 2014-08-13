@@ -1,0 +1,41 @@
+.calender {
+  position: relative;
+
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+
+  background-image: url('/img/calender.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.calender p {
+  position: absolute;
+  top: 55px;
+  left: 30px;
+
+  margin: 0;
+}
+
+.event-activities {
+  margin: 10px 20px;
+
+  font-size: 1em;
+}
+
+table.events td:first-child {
+  border-right: 1px solid #EEE;
+}
+
+table.events td {
+  padding: 1em 1em;
+}
+
+table.events tr {
+  border-bottom: 1px solid #EEE;
+}
