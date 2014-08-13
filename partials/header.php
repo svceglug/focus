@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="/css/grids.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/events.css" />
+    <link rel="stylesheet" href="/css/members.css" />
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/modernizr.custom.js"></script>
     <title>FOCUS GLUG Alternative</title>
   </head>
   <body>
