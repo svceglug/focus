@@ -1,3 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Open Sans';
+}
+
+header {
+  height: 4em;
+  border-bottom: 1px solid #EEE;
+}
+
+h1.site-title {
+  display: inline;
+  margin: 0;
+
+  color: #666;
+
+  font-size: 3em;
+}
+
+h1.site-title:hover {
+  color: #222;
+}
+
+nav ul {
+  line-height: 4em;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  border-right: 1px solid #EEE;
+}
+
+nav ul li:last-child {
+  border-right: 0;
+}
+
+nav ul li a, a:visited {
+  padding: 1em 1em;
+
+  color: #222;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #DD4814;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-right:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul, ol{
+  margin:0;
+  padding:0;
 }
