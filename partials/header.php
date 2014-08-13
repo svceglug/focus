@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/grids.css" />
 
     <title>FOCUS GLUG Alternative</title>
   </head>
