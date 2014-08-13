@@ -4,6 +4,8 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <link rel="stylesheet" href="/css/normalize.css" />
+
     <title>FOCUS GLUG Alternative</title>
   </head>
   <body>
