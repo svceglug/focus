@@ -4,26 +4,26 @@
 This is the website for Free and Open Source Users SVCE, GNU/Linux User Group.
 
 ## Setting up development.
-1) Install Git, Apache2, PHP5, MySQL
+1. Install Git, Apache2, PHP5, MySQL
 ```shell
 sudo add-apt install git-core php5 mysql-server php5-mysql libapache2-mod-php5 apache2-utils php-pear php5-gd  php5-mcrypt php5-curl
 ```
 It may ask you to set a MySQL root password.
 
-2) Fork this repository.
+2. Fork this repository.
 
-3) Clone the forked repository on your local machine at /var/www/ or /var/www/html depending upon your root location on your machine
+3. Clone the forked repository on your local machine at /var/www/ or /var/www/html depending upon your root location on your machine
 ```shell
 cd /var/www/
 git clone git@github.com:svceglug/focus-website.git .
 ```
 will clone this repository on Present Working Directory
 
-4) Start coding and STRICTLY follow the git workflow which is below
+4. Start coding and STRICTLY follow the git workflow which is below
 
-5) Send pull request to this repository. We prefer more number of small pull requests rather than a huge one.
+5. Send pull request to this repository. We prefer more number of small pull requests rather than a huge one.
 
-6) Congratulate yourself, you are a contributor now
+6. Congratulate yourself, you are a contributor now
 
 #### Its not necessary that every pull request you send will be accepted but it DEFINITELY is a very good sign, you are a contributer when you send a pull request.
 
@@ -70,10 +70,10 @@ will clone this repository on Present Working Directory
 ```
 
 ## Git Workflow:
-1) Create a new branch for every new feature/static file you create.
+1. Create a new branch for every new feature/static file you create.
 ```shelll
 git checkout -b <yourbranch>
 ```
-2) Code on that branch
+2. Code on that branch
 
-3) Merge it to master
+3. Merge it to master
