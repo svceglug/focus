@@ -6,7 +6,7 @@
           <h2 class="orange-border">FOCUS</h2>
           <ul>
             <li><a href="/contact.php">Contact Us</a></li>
-            <li><a href="https://github.com/scveglug" target="_blank">Source Code</a></li>
+            <li><a href="https://github.com/svceglug/focus" target="_blank">Source Code</a></li>
           </ul>
         </div>
       </div>
