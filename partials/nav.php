@@ -5,7 +5,7 @@
       <ul>
         <li><a href="/about.php">About</a></li>
         <li><a href="/events.php">Events</a></li>
-        <li><a href="https://github.com/svceglug/">Git Repo</a></li>
+        <li><a href="https://github.com/svceglug/" target="_blank">Git Repo</a></li>
         <li><a href="/members.php">Members</a></li>
       </ul>
     </nav>
