@@ -1,5 +1,6 @@
 <?php require_once("partials/header.php"); ?>
 
+<h1 class="heading">Members Page</h1>
 
 				<ul id="og-grid" class="og-grid">
 					<li>
