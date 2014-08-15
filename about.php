@@ -32,7 +32,7 @@
         <br>
         
         <div class="row">
-            <div class="column-3-4"><h2>freedom software, Free as in Freedom</h2>
+            <div class="column-3-4"><h2>Free software, Free as in Freedom</h2>
                 <br>
                 <p align="justify">"Free Software" means software that respects users' freedom and community, meaning it allows the user to share, copy, use, study, improve and use the softwares without any restrictions (copy right, patents, etc). Thus , "free software" is a matter of liberty and not price. We give an opportunity to be a part of this community, spread the joy of sharing and learning. </p>
             </div>
