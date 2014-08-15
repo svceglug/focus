@@ -1,4 +1,3 @@
-
 <?php require 'partials/header.php' ?>
 
     <link rel="stylesheet" href="css/normalize.css" />
@@ -32,7 +31,11 @@
         <br>
         
         <div class="row">
+<<<<<<< HEAD
             <div class="column-3-4"><h2>Freedom software, Free as in Freedom</h2>
+=======
+            <div class="column-3-4"><h2>Free software, Free as in Freedom</h2>
+>>>>>>> 0bd729c6d709b72b5bbd766373fbf891ccf9e86d
                 <br>
                 <p align="justify">"Free Software" means software that respects users' freedom and community, meaning it allows the user to share, copy, use, study, improve and use the softwares without any restrictions (copy right, patents, etc). Thus , "free software" is a matter of liberty and not price. We give an opportunity to be a part of this community, spread the joy of sharing and learning. </p>
             </div>
