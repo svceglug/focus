@@ -19,4 +19,4 @@
   <body>
     <?php require 'partials/nav.php' ?>
     <div class="container"> <!-- Tag is closed in partials/footer.php -->
-  
+
