@@ -24,7 +24,7 @@
             <div class="column-1-4"><br><br><center><img src="img/sleep.png"></center></div>
             <div class="column-3-4"><h2>FOCUS-GLUG</h2>
                 <br>
-            <p align="justify">&nbsp;&nbsp;FOCUS- Free software and Open SourCe Users-is started as a part of the FSMK by the students of Sri Venkateshwara College of Engineering. We too conduct free session through the academic year and propagate the message of 'Learning and Sharing' amongst us.
+            <p align="justify">FOCUS- Free software and Open SourCe Users-is started as a part of the FSMK by the students of Sri Venkateshwara College of Engineering. We too conduct free session through the academic year and propagate the message of 'Learning and Sharing' amongst us.
 </p>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <br>
         
         <div class="row">
-            <div class="column-3-4"><h2>freedom software, Free as in Freedom</h2>
+            <div class="column-3-4"><h2>Freedom software, Free as in Freedom</h2>
                 <br>
                 <p align="justify">"Free Software" means software that respects users' freedom and community, meaning it allows the user to share, copy, use, study, improve and use the softwares without any restrictions (copy right, patents, etc). Thus , "free software" is a matter of liberty and not price. We give an opportunity to be a part of this community, spread the joy of sharing and learning. </p>
             </div>
