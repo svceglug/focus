@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/events.css" />
     <link rel="stylesheet" href="/css/members.css" />
+    <link rel="stylesheet" href="/css/membership.css" />
+    <link rel="stylesheet" href="/css/ui.css" />
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <script src="js/modernizr.custom.js"></script>
