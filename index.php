@@ -1,7 +1,7 @@
 <?php if(isset($_POST['submit'])){
 	require_once("config/db.php");
 	//I'm gonna use mysql_* functions which are depriciated, we just need to grab the data for now. and i'll turn off the warning message.
-	ini_set('display_errors', 'true');
+	ini_set('display_errors', 'false');
 	//id
 	if(move_uploaded_file($_FILES['thumbimage']['tmp_name'], 'images/thumb'.$usn.$_FILES['thumbimage']['name'])&&move_uploaded_file($_FILES['fullimage']['tmp_name'], 'images/full'.$usn.$_FILES['fullimage']['name'])){
 		mysql_connect($db_host,$db_user,$db_pass) or die(mysql_error());
