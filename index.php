@@ -71,14 +71,14 @@
     	Full size(360x320)<input type="file" name="fullimage" required />
     </div> -->
     <br>
-    <div class="row"><textarea name="about" cols="30" rows="10" class="membership" required placeholder="Describe yourself"></textarea></div>
+    <div class="row"><textarea name="about" cols="30" rows="10" class="membership" required placeholder="TELL US SOMETHING ABOUT YOURSELF"></textarea></div>
     <br>
         <div class="row" style="margin-top:20px;margin-bottom:20px;">
     	180 X 160<input type="file" name="thumbimage" required />
     	360 X 320<input type="file" name="fullimage" required />
     </div>
     <br>    
-    <div class="row" style="margin-bottom:30px;"><input type="submit" name="submit" class="membership" value="Make me a member!"></div>
+    <div class="row" style="margin-bottom:30px;"><input type="submit" name="submit" class="membership" value="MAKE ME A MEMBER"></div>
 </form>
 <?php require_once( "partials/footer.php"); ?>
 <?php } ?>
