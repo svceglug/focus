@@ -11,6 +11,10 @@ body {
   line-height: 1.5em
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
 header {
   height: 4em;
   border-bottom: 1px solid #EEE;
@@ -78,11 +82,6 @@ nav ul li a:hover {
 ul, ol{
   margin:0;
   padding:0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
 }
 
 footer {
