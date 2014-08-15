@@ -1,4 +1,3 @@
-
 <?php require 'partials/header.php' ?>
 
     <link rel="stylesheet" href="css/normalize.css" />
