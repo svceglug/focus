@@ -1,6 +1,5 @@
 html, body {
   font-size: 1em;
-  height: 100%; /* Make Stick footer to the bottom of the page */
   margin: 0;
   padding: 0;
 }
@@ -87,16 +86,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  height: 250px; /* When this is changed. Change '.container' -ve margin as well. */
-
   background-color: #333;
   color: #FFF;
-}
-
-/* Stick Footer to the bottom */
-.container {
-  min-height: 100%;
-  margin: 0 auto -250px; /* the bottom margin is the negative value of the footer's height */
 }
 
 .footer-div {
