@@ -73,6 +73,10 @@ nav ul li a:hover {
   clear: both;
 }
 
+.center {
+  margin: 0 auto;
+}
+
 .heading {
   display: block;
   padding: 1em 0;
