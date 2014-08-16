@@ -1,7 +1,7 @@
 <?php require 'partials/header.php' ?>
 
+  <h1 class="heading">About Us</h1>
   <div class="row">
-    <h1 class="heading">About Us</h1>
     <div class="column-3-4">
       <h2>Free Software, Free Society</h2>
       <br>
