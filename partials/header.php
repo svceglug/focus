@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/grids.css" />
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/sticky-footer.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/events.css" />
     <link rel="stylesheet" href="/css/members.css" />
     <link rel="stylesheet" href="/css/membership.css" />
