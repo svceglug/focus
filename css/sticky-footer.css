@@ -9,7 +9,7 @@ html, body {
 .full-container {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -250px;
+  margin-bottom: -200px;
 }
 
 .full-container:after {
@@ -19,5 +19,5 @@ html, body {
 
 footer, .full-container:after {
   /* .push must be the same height as footer */
-  height: 250px;
+  height: 200px;
 }
