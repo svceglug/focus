@@ -1,0 +1,23 @@
+html, body, footer {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.full-container {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -250px;
+}
+
+.full-container:after {
+  content: "";
+  display: block;
+}
+
+footer, .full-container:after {
+  /* .push must be the same height as footer */
+  height: 250px;
+}
