@@ -31,11 +31,9 @@
     <div class="row">
         <input type="text" class="membership" name="name" required placeholder="FULL NAME" />
     </div>
-    <br>
     <div class="row">
         <input type="text" class="membership" name="usn" required placeholder="USN" />
     </div>
-    <br>
     <div class="row">
       <select name="year" class="membership" required>
         <option value="-1">SELECT A YEAR</option>
@@ -45,7 +43,6 @@
         <option value="4">4</option>
       </select>
     </div>
-    <br>
     <div class="row">
       <select name="branch" class="membership">
         <option value="-1">SELECT A BRANCH</option>
@@ -57,11 +54,9 @@
         <option value="ME">ME</option>
       </select>
     </div>
-    <br>
     <div class="row">
       <input type="email" required class="membership" required name="email" placeholder="EMAIL" />
     </div>
-    <br>
     <div class="row">
       <input type="url" name="link" class="membership" required placeholder="URL" />
     </div>
@@ -70,16 +65,13 @@
       Thumbnail(180x160)<input type="file" name="thumbimage" required />
       Full size(360x320)<input type="file" name="fullimage" required />
     </div> -->
-    <br>
     <div class="row">
       <textarea name="about" cols="30" rows="10" class="membership" required placeholder="TELL US SOMETHING ABOUT YOURSELF"></textarea>
     </div>
-    <br>
     <div class="row" style="margin-top:20px;margin-bottom:20px;">
       180 X 160<input type="file" name="thumbimage" required />
       360 X 320<input type="file" name="fullimage" required />
     </div>
-    <br>
     <div class="row" style="margin-bottom:30px;">
       <input type="submit" name="submit" class="membership" value="MAKE ME A MEMBER">
     </div>
