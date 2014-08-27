@@ -22,8 +22,8 @@
   }
 }else{ ?>
 <?php require_once( "partials/header.php"); ?>
-
-<form method="post" enctype="multipart/form-data" action="<?php echo $_SERVER['PHP_SELF']; ?>" style="margin-top:30px;" align="center">
+<div align="center">
+<form method="post" enctype="multipart/form-data" action="<?php echo $_SERVER['PHP_SELF']; ?>" style="margin-top:30px;" >
 
   <?php if(isset($_GET['error'])){ ?><div style="margin-bottom:30px;" class="alert error"><?php echo $_GET['error']; ?></div><?php } ?>
     <?php if(isset($_GET['success'])){ ?><div style="margin-bottom:30px;" class="alert success"><?php echo $_GET['success']; ?></div><?php } ?>
@@ -84,5 +84,6 @@
       <input type="submit" name="submit" class="membership" value="MAKE ME A MEMBER">
     </div>
 </form>
+</div>
 <?php require_once( "partials/footer.php"); ?>
 <?php } ?>
