@@ -3,7 +3,7 @@
   //I'm gonna use mysql_* functions which are depriciated, we just need to grab the data for now. and i'll turn off the warning message.
   ini_set('display_errors', 'false');
   //id
-  if(move_uploaded_file($_FILES['thumbimage']['tmp_name'], 'images/thumb'.$usn.$_FILES['thumbimage']['name'])&&move_uploaded_file($_FILES['fullimage']['tmp_name'], 'images/full'.$usn.$_FILES['fullimage']['name'])){
+  if(move_uploaded_file($_FILES['fullimage']['tmp_name'], 'images/full'.$usn.$_FILES['fullimage']['name'])){
     mysql_connect($db_host,$db_user,$db_pass) or die(mysql_error());
   $name=mysql_escape_string($_POST['name']);
   $usn=mysql_escape_string($_POST['usn']);
@@ -69,8 +69,8 @@
       <textarea name="about" cols="30" rows="10" class="membership" required placeholder="TELL US SOMETHING ABOUT YOURSELF"></textarea>
     </div>
     <div class="row" style="margin-top:20px;margin-bottom:20px;">
-      180 X 160<input type="file" name="thumbimage" required />
-      360 X 320<input type="file" name="fullimage" required />
+      
+      Upload a High resolution picture in 8:9 Aspect Ratio<input type="file" name="fullimage" required />
     </div>
     <div class="row" style="margin-bottom:30px;">
       <input type="submit" name="submit" class="membership" value="MAKE ME A MEMBER">
