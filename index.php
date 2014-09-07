@@ -3,7 +3,6 @@
   //I'm gonna use mysql_* functions which are depriciated, we just need to grab the data for now. and i'll turn off the warning message.
   ini_set('display_errors', 'false');
   //id
-  if(move_uploaded_file($_FILES['fullimage']['tmp_name'], 'images/full'.$usn.$_FILES['fullimage']['name'])){
     mysql_connect($db_host,$db_user,$db_pass) or die(mysql_error());
   $name=mysql_escape_string($_POST['name']);
   $usn=mysql_escape_string($_POST['usn']);
@@ -14,11 +13,10 @@
   $about=mysql_escape_string($_POST['about']);
 
     $sql="INSERT INTO `nishghvm_focus`.`memberDetails` (`ID`, `name`, `usn`, `year`, `branch`, `email`, `link`, `about`) VALUES (NULL, '$name', '$usn', '$year', '$branch', '$email', '$url', '$about');";
-    if(mysql_query($sql)){
+    if(mysql_query($sql)&&move_uploaded_file($_FILES['fullimage']['tmp_name'], 'images/full'.$usn.$_FILES['fullimage']['name'])){
       header("location:index.php?success=Thank you for registration, please share with your friends!");
     }else{
-      header("location:index.php?error=seems like you have already registered, please contact admins or maybe your email is used by someone else (in this case please contact admins)".mysql_error());
-    }
+      header("location:index.php?error=seems like you have already registered, please contact admins or maybe your email is used by someone else (in this case please contact admins)");
   }
 }else{ ?>
 <?php require_once( "partials/header.php"); ?>
