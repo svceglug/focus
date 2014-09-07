@@ -3,7 +3,7 @@
   //I'm gonna use mysql_* functions which are depriciated, we just need to grab the data for now. and i'll turn off the warning message.
   ini_set('display_errors', 'false');
   //id
-    mysql_connect($db_host,$db_user,$db_pass) or die(mysql_error());
+  mysql_connect($db_host,$db_user,$db_pass) or die(mysql_error());
   $name=mysql_escape_string($_POST['name']);
   $usn=mysql_escape_string($_POST['usn']);
   $year=mysql_escape_string($_POST['year']);
@@ -11,12 +11,11 @@
   $email=mysql_escape_string($_POST['email']);
   $url=mysql_escape_string($_POST['link']);
   $about=mysql_escape_string($_POST['about']);
-
-    $sql="INSERT INTO `nishghvm_focus`.`memberDetails` (`ID`, `name`, `usn`, `year`, `branch`, `email`, `link`, `about`) VALUES (NULL, '$name', '$usn', '$year', '$branch', '$email', '$url', '$about');";
-    if(mysql_query($sql)&&move_uploaded_file($_FILES['fullimage']['tmp_name'], 'images/full'.$usn.$_FILES['fullimage']['name'])){
-      header("location:index.php?success=Thank you for registration, please share with your friends!");
-    }else{
-      header("location:index.php?error=seems like you have already registered, please contact admins or maybe your email is used by someone else (in this case please contact admins)");
+  $sql="INSERT INTO `nishghvm_focus`.`memberDetails` (`ID`, `name`, `usn`, `year`, `branch`, `email`, `link`, `about`) VALUES (NULL, '$name', '$usn', '$year', '$branch', '$email', '$url', '$about');";
+  if(mysql_query($sql)&&move_uploaded_file($_FILES['fullimage']['tmp_name'], 'images/full'.$usn.$_FILES['fullimage']['name'])){
+    header("location:index.php?success=Thank you for registration, please share with your friends!");
+  }else{
+    header("location:index.php?error=seems like you have already registered, please contact admins or maybe your email is used by someone else (in this case please contact admins)");
   }
 }else{ ?>
 <?php require_once( "partials/header.php"); ?>
@@ -59,16 +58,11 @@
       <input type="url" name="link" class="membership" required placeholder="URL" />
     </div>
     <br>
-<!--     <div class="row" style="margin-top:20px;margin-bottom:20px;">
-      Thumbnail(180x160)<input type="file" name="thumbimage" required />
-      Full size(360x320)<input type="file" name="fullimage" required />
-    </div> -->
     <div class="row">
       <textarea name="about" cols="30" rows="10" class="membership" required placeholder="TELL US SOMETHING ABOUT YOURSELF"></textarea>
     </div>
     <div class="row" style="margin-top:20px;margin-bottom:20px;">
-      
-      Upload a High resolution picture in 8:9 Aspect Ratio<input type="file" name="fullimage" required />
+      Upload a High resolution picture in 8:9 Aspect Ratio <input type="file" name="fullimage" required />
     </div>
     <div class="row" style="margin-bottom:30px;">
       <input type="submit" name="submit" class="membership" value="MAKE ME A MEMBER">
