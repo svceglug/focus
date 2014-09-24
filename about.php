@@ -30,7 +30,7 @@ $free_header = "Free software, Free as in Freedom";
   <br>
   <div class="row">
     <div class="column-3-4">
-      <h2><? php echo $free_header; ?></h2>
+      <h2><?php echo $free_header; ?></h2>
       <br>
       <p align="justify"><?php echo $free; ?></p>
     </div>
